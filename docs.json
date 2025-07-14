@@ -51,13 +51,18 @@
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
             ]
+          },
+          {
+            "group": "Speakeasy Reference",
+            "pages": [
+              {
+                "name": "CMOS Account Management API",
+                "url": "speakeasy-api-reference",
+                "openapi": "https://spec.speakeasy.com/cmos/api/cmos-account-management-api-with-code-samples"
+              }
+            ]
           }
         ]
-      },
-      {
-        "name": "Another API Reference",
-        "url": "api-reference",
-        "openapi": "https://spec.speakeasy.com/cmos/api/cmos-account-management-api-with-code-samples"
       }
     ],
     "global": {
