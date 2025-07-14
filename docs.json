@@ -38,32 +38,15 @@
         "tab": "API Reference",
         "groups": [
           {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          },
-          {
             "group": "Speakeasy Reference",
-            "pages": [
-              {
-                "name": "CMOS Account Management API",
-                "url": "speakeasy-api-reference",
-                "openapi": "https://spec.speakeasy.com/cmos/api/cmos-account-management-api-with-code-samples"
-              }
-            ]
+            "openapi": {
+              "source": "https://spec.speakeasy.com/cmos/api/cmos-account-management-api-with-code-samples",
+              "directory": "api-reference"
+            }
           }
         ]
       }
+      
     ],
     "global": {
       "anchors": [
