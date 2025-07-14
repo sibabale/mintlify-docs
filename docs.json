@@ -53,6 +53,11 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Another API Reference",
+        "url": "api-reference",
+        "openapi": "https://spec.speakeasy.com/cmos/api/cmos-account-management-api-with-code-samples"
       }
     ],
     "global": {
@@ -66,6 +71,11 @@
           "anchor": "Community",
           "href": "https://mintlify.com/community",
           "icon": "slack"
+        },
+        {
+          "anchor": "API Reference",
+          "href": "https://spec.speakeasy.com/cmos/api/cmos-account-management-api-with-code-samples",
+          "icon": "square-terminal"
         },
         {
           "anchor": "Blog",
