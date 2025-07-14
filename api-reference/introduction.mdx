@@ -1,33 +1,39 @@
 ---
 title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+description: 'Unified API for payments, account management, and compliance.'
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+<Info>
+  The CMOS Account Management API provides standardized, secure access to TCS BaNCS Core Modern Operating System (CMOS) for all account and payment operations.
+</Info>
 
-## Welcome
+## Overview
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+The CMOS API simplifies complex mainframe interactions into modern REST endpoints for:
+- Premium collections
+- Claims payouts
+- Investment returns
+- Real-time account balance queries
+- Automated compliance and audit trails
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
+**Key Features:**
+- Real-time transaction processing
+- Integration with all major SA banks
+- Built-in compliance validation for SARB reporting
+- Automatic retry logic for mainframe timeouts
+- End-to-end encryption and audit trails
 
 ## Authentication
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+All API endpoints require authentication using either a Bearer token or API key. See the security section in the OpenAPI reference for details.
 
 ```json
 "security": [
-  {
-    "bearerAuth": []
-  }
+  { "BearerAuth": [] },
+  { "ApiKeyAuth": [] }
 ]
 ```
+
+## Next Steps
+- Review the available endpoints in the API Reference tab.
+- Try out requests in the sandbox environment with mock data.
